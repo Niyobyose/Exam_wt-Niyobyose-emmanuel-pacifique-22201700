@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 30s ease-out infinite;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url(1.jpg);
+    }
+    25%{
+        background-image: url(2.jpg); 
+    }
+    50%{
+        background-image: url(3.jpg);
+    }
+    75%{
+        background-image: url(4.jpg); 
+    }
+    100%{
+        background-image: url(7.jpg);
+    }
+}
+#cssmenu {padding: 0; margin: 0; border: 0; line-height: 1;}
+    #cssmenu ul,
+    #cssmenu ul li{list-style: none; margin: 0; padding: 0;}
+
+    #cssmenu ul li.hover,
+    #cssmenu ul li:hover {position: relative; z-index: 599; cursor: default;}
+
+    #cssmenu {width: 200px; background: chocolate; font-family:sans-serif; font-weight:bold;
+    zoom: 1; font-size: 18px;}
+    #cssmenu:before {content: ''; display: block;}
+
+    #cssmenu:after{content: ''; display: table; clear: both;}
+    #cssmenu a {display: block; padding: 15px 20px; color:black; text-decoration: none;
+    text-transform: uppercase; border-bottom: 1px solid #ffffff;}
+
+    #cssmenu > ul {width: 200px;}
+    #cssmenu > ul > li > a {border-left: 4px solid #095586; color: #095586;}
+
+    #cssmenu > ul > li a:hover {background: #095586; color:chocolate;}
+    
+    .universal_container a:hover{
+        background-color: aqua;
+        color: gray;
+    
+    }
+    .universal_container h1{
+        color: aqua;
+    }
+    .nav_close {
+        display: inline-block;
+        position: absolute;
+        top: 3%;
+        right: 5%;
+        color: #fff;
+        font-family: '../fonts/Gotham-Bold';
+        font-size: 14px;
+        cursor: pointer;
+      }

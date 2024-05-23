@@ -1,0 +1,26 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.nav_close {
+  display: inline-block;
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  color: #fff;
+  font-family: '../fonts/Gotham-Bold';
+  font-size: 14px;
+  cursor: pointer;
+}

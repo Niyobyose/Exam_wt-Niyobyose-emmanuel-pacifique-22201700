@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Data</title>
+    <body bgcolor="skyblue">
+        <ul style="list-style-type: none; padding: 0;">
+          <li style="display: inline; margin-right: 10px;">
+        </li>
+        <li style="display: inline; margin-right: 10px;"><a href="home.html">HOME</a>
+          <li style="display: inline; margin-right: 10px;"><a href="our_coffe.html">OUR COFFEE</a>
+          <li style="display: inline; margin-right: 10px;"><a href="our_story.html">OUR STORY</a>
+          <li style="display: inline; margin-right: 10px;"><a href="about.">ABOUT US</a>
+          <li style="display: inline; margin-right: 10px;"><a href="t.php">INSERT</a>
+            <li style="display: inline; margin-right: 10px;"><a href="contact.html">CONTACT US</a>
+          <li style="display: inline; margin-right: 10px;"><a href="./trainees.php">ACCOUNT</a>
+              <li class="dropdown" style="display: inline; margin-right: 10px;">
+              <LI  style="display: inline; margin-right: 10px;"><a href="session.php">LOG OUT</a>
+            <div class="dropdown-contents">
+            <!-- Links inside the dropdown menu -->
+           
+            </div>
+      
+        </li>
+        </li>
+          </li><br><br>
+          
+        </ul>
+      
+</head>
+
+<body>
+    <h2>Insert customer data</h2>
+    <form method="post" action="insertcustomer.php">
+        <label for="id">ID:</label><br>
+        <input type="number" id="id" name="id" required><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br>
+        <label for="service">Service:</label><br>
+        <input type="text" id="service" name="service" required><br><br>
+        <input type="submit" value="insert">
+
+    </form>
+</body>
+
+</html>
